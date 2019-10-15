@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+/* MAIN */
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font: normal 16px Arial,Helvetica,sans-serif;
+	background: #CCE6B7;
+}
+
+
+/* LINKS */
+a { text-decoration: none; }
+a:link { color: #ED6444; }
+a:visited { color: #ED6444; }
+a:hover { color: #EFAEA0; text-decoration: underline; }
+
+
+/* HEADER */
+#header
+{
+	padding: 2.618em 0 0 4.234em;
+}
+#header #logo
+{
+	font-size: 2.618em;
+	color: #5A947C;
+	margin-bottom: -0.236em;
+}
+#header #sublogo
+{
+	font-size: 1.618em;
+	color: #5A947C;
+	margin-bottom: 0em;
+}
+#header #subtitle
+{
+	color: #5A947C;
+	margin-bottom: 0.618em
+}
+#approx {
+	color: #5A947C;
+}
+
+
+#content
+{
+	padding-left: 4.236em;
+	padding-top: 0.618em;
+	padding-bottom: 0.618em;
+}
+
+
+table#serie-container {
+	border-collapse: collapse;
+	border: 0px none #FFFFFF;
+	margin-top: 0.618em;
+	text-align: left;
+}
+.row {
+	background-color: #ABA281;
+}
+.row:nth-child(odd) {
+	background-color: #E6E77F;
+}
+.row td {
+	border: 0px none #FFFFFF;
+	padding: 0.382em;
+}
+
+
+.super {
+	vertical-align: super;
+	font-size: 0.618em;
+}
+.sub {
+	vertical-align: sub;
+	font-size: 0.618em;
+}
